@@ -1,12 +1,12 @@
 # Introduction
 
-The present lab session introduces the *Gradient Descent* optimization method using data form a linear model. First, the student will understand the procedure to compute the *Gradient* of the Mean Squared Error (MSE) and how to update the model parameter iteratively. 
+The present lab session introduces the *Gradient Descent* optimization method using data from a linear model. First, the student will understand the procedure to compute the *Gradient* of the Mean Squared Error (MSE) and how to update the model parameter iteratively. 
 
 Then, the model parameters are updated iteratively by applying:
 
 $$\theta_{N}=\theta_{old}-\eta \nabla MSE(\theta)$$
 
-Next, the student will implement the GD optimizer inside a `for` loop to limit the number of iteration. Finally, a function is implemented to visualize the learning steps and observing by plots, how the parameters adjust the model.
+Next, the student will implement the GD optimizer inside a `for` loop to limit the number of iteration. Finally, a function is implemented to visualize the learning steps and observe by plots, how the parameters adjust the model.
 
 # Objectives
 
